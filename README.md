@@ -20,9 +20,9 @@ A modern, single-file personal portfolio (`index.html`) built with HTML, Tailwin
 1. Create a GitHub repo and push `index.html` and `README.md`.
 2. Go to https://vercel.com/new and import the repo.
 3. Framework Preset: **Other**. Leave Build Command and Output Directory empty.
-4. Click **Deploy*.
+4. Click **Deploy**.
 
-##" b) Via Vercel CLB**
+**b) Via Vercel CLI**
 ```bash
 npx vercel        # preview deployment
 npx vercel --prod # production deployment
@@ -30,5 +30,5 @@ npx vercel --prod # production deployment
 
 ## Replace the placeholders
 - **GitHub:** search `your-username` in `index.html` and replace it with your GitHub username (3 places).
-- **Project links:** in the Projects section, replace each `href="#` on "View Project" with your real project URL.
+- **Project links:** in the Projects section, replace each `href="#"` on "View Project" with your real project URL.
 - **Achievements:** replace the "Add your achievement here" cards with your real achievements.
